@@ -21,7 +21,7 @@ export default function Forecast({item}){
    
     return(<View
     style={{
-        borderRadius:20,
+        borderRadius:15,
         
         
     }}>
@@ -29,7 +29,7 @@ export default function Forecast({item}){
         style={{
             height:"100%",
             width:130,
-            borderRadius:20,
+            borderRadius:15,
             overflow:"hidden",
             gap:10,
             justifyContent:"center",
