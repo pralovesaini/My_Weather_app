@@ -22,13 +22,15 @@ export default function Forecast({item}){
     return(<View
     style={{
         borderRadius:20,
-        overflow:"hidden"
+        
+        
     }}>
         <BlurView
         style={{
             height:"100%",
             width:130,
             borderRadius:20,
+            overflow:"hidden",
             gap:10,
             justifyContent:"center",
             alignItems:"center",

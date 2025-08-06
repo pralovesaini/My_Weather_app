@@ -2,12 +2,13 @@ import { ScrollView, TouchableOpacity, Text, View, Modal, StyleSheet } from 'rea
 import { GpsFixIcon,  MapPinIcon } from 'phosphor-react-native'
 import { getCurrentPositionAsync, requestBackgroundPermissionsAsync, requestForegroundPermissionsAsync } from 'expo-location'
 import { useEffect, useState } from 'react';
-import MapView, { Marker } from 'react-native-maps'
+// import MapView ,{ MapMarker, Marker } from 'react-native-maps'
 import { ImageBackground } from 'expo-image';
 import { CloudIcon } from 'phosphor-react-native'
 import Forecast from '../components/4cast';
 import { BlurView } from 'expo-blur';
 import FiveDayForecast from '../components/5day';
+import MapView ,{Marker} from 'react-native-maps';
 
 export default function HomePage() {
   const API_key = "29fc592d8c7ca006dc32b3d5e55ac2d0"
@@ -205,6 +206,7 @@ export default function HomePage() {
                   longitude: currentmaplocaion.longitude,
                 }} />}
               </MapView>
+              
               <TouchableOpacity
                 style={{
                   height: 40,
