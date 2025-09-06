@@ -103,7 +103,7 @@ export default function HomePage() {
       height: "100%",
       padding: 10
     }}>
-      <ScrollView>
+      <ScrollView style={{ marginTop:50 }}>
         <BlurView intensity={0}>
           <View style={{ flexDirection: "row", gap: 10 }}>
             <BlurView intensity={50}>
