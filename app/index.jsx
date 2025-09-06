@@ -229,10 +229,10 @@ export default function HomePage() {
 }
 
 const styles = StyleSheet.create({
-  Text1: { fontSize: 45, marginTop: 20, alignSelf: "center", color: "white", fontWeight: 700 },
-  Text2: { fontSize: 35, marginTop: 20, alignSelf: "center", color: "white", fontWeight: 700 },
-  Text3: { marginTop: 10, fontSize: 18, alignSelf: "center", color: "grey", fontWeight: 700 },
+  Text1: { fontSize: 45, marginTop: 10, alignSelf: "center", color: "white", fontWeight: 700 },
+  Text2: { fontSize: 35, marginTop: 10, alignSelf: "center", color: "white", fontWeight: 700 },
+  Text3: { marginTop: 10, fontSize: 10, alignSelf: "center", color: "grey", fontWeight: 700 },
   Text4: { fontSize: 19, alignSelf: "center", color: "white", fontWeight: 700 },
-  Text5: { marginTop: 25, fontSize: 17, color: "lightgrey", fontWeight: 800, marginBottom: 20 },
+  Text5: { marginTop: 20, fontSize: 17, color: "lightgrey", fontWeight: 800, marginBottom: 20 },
   Text6: { marginTop: 2, fontSize: 18, color: "lightgrey", fontWeight: 800, marginBottom: 20 }
 })
